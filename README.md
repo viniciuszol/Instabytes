@@ -23,7 +23,7 @@ Instabytes é uma aplicação que replica a funcionalidade básica de uma págin
 
 ### Clonando o Repositório
 
-Primeiro, clone o repositório para o seu ambiente local:
+- Primeiro, clone o repositório para o seu ambiente local:
 
 ```bash
 git clone https://github.com/seu-usuario/instabytes.git
@@ -32,16 +32,30 @@ cd instabytes
 
 ### Instalando as Dependências
 
-Antes de rodar o projeto, você precisará instalar as dependências do backend. O projeto utiliza o Node.js. Para instalar as dependências, execute o seguinte comando no terminal:
+ - Antes de rodar o projeto, você precisará instalar as dependências do backend. O projeto utiliza o Node.js. Para instalar as dependências, execute o seguinte comando no terminal:
 
 ```bash
 npm install
 ```
 
-Isso irá instalar todos os pacotes necessários, que estão listados no arquivo package.json.
+- Isso irá instalar todos os pacotes necessários, que estão listados no arquivo package.json.
 
 ### Configurando as Variáveis de Ambiente
-Crie um arquivo .env na raiz do projeto e adicione o seguinte conteúdo, substituindo pelos seus dados:
 
-**-STRING_CONEXAO**=sua-conexao-mongodb-atlas 
+ - Crie um arquivo .env na raiz do projeto e adicione o seguinte conteúdo, substituindo pelos seus dados:
+
+**-STRING_CONEXAO**=sua-conexao-mongodb-atlas
 **-GEMINI_API_KEY**=sua-chave-api-gemini
+
+### Rodando o Servidor Backend
+
+ - Com as dependências instaladas e as variáveis de ambiente configuradas, você pode iniciar o servidor backend com o comando:
+
+```bash
+npm run dev
+```
+
+ - Este comando irá iniciar o servidor no modo de desenvolvimento. O backend ficará disponível na porta 3000 por padrão.
+
+###  Rodando o Frontend
+ - Para rodar o frontend, você precisará de um servidor para servir os arquivos estáticos. O frontend será acessado na porta 8000. Para isso, você pode usar o Live Server ou qualquer servidor estático de sua preferência.
