@@ -44,8 +44,7 @@ npm install
 
  - Crie um arquivo .env na raiz do projeto e adicione o seguinte conteúdo, substituindo pelos seus dados:
 
-**-STRING_CONEXAO**=sua-conexao-mongodb-atlas
-**-GEMINI_API_KEY**=sua-chave-api-gemini
+**-STRING_CONEXAO**=sua-conexao-mongodb-atlas // **-GEMINI_API_KEY**=sua-chave-api-gemini
 
 ### Rodando o Servidor Backend
 
