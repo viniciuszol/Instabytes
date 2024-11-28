@@ -1,6 +1,6 @@
 # Instabytes
 
-Instabytes é uma aplicação que replica a funcionalidade básica de uma página inicial de perfil do Instagram. O backend foi desenvolvido utilizando **Node.js** e a **API do Google**, enquanto o frontend exibe as postagens de um perfil de maneira dinâmica. O sistema também utiliza o **MongoDB Atlas** para armazenar os dados das postagens e interagir com o banco de dados de forma eficiente.
+Instabytes é uma aplicação que replica a funcionalidade básica de uma página inicial de um perfil do Instagram. O backend foi desenvolvido utilizando **Node.js** e a **API do Google**, enquanto o frontend exibe as postagens de um perfil de maneira dinâmica. O sistema também utiliza o **MongoDB Atlas** para armazenar os dados das postagens e interagir com o banco de dados de forma eficiente.
 
 ## Tecnologias Utilizadas
 
